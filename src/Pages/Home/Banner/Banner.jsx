@@ -16,7 +16,7 @@ const Banner = () => {
                 slidesPerView={1}
                 loop={true} // Enable loop
                 pagination={{ clickable: true }}
-                autoplay={{ delay: 2000 }} // Example of autoplay configuration
+                autoplay={{ delay: 3000 }} // Example of autoplay configuration
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
             >

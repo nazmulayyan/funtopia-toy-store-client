@@ -7,7 +7,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="bg-pink-500 h-20 relative z-10">
+        <nav className="bg-pink-500 h-20 relative z-10 cursor-pointer">
             <div className="flex justify-between lg:max-w-screen-2xl lg:p-0 px-5 mx-auto items-center h-full">
                 <div>
                     <Link to='/' className="md:text-3xl text-2xl font-bold">FUNTOPIA</Link>
@@ -24,16 +24,16 @@ const Navbar = () => {
                             <Link className="font-bold text-xl text-white" to='/'>Home</Link>
                         </li>
                         <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
-                            <Link className="font-bold text-xl text-white" to='/about'>About</Link>
+                            <Link className="font-bold text-xl text-white" to='/about'>All Toys</Link>
                         </li>
                         <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
-                            <Link className="font-bold text-xl text-white" to='/service'>Service</Link>
+                            <Link className="font-bold text-xl text-white" to='/service'>My Toys</Link>
                         </li>
                         <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
-                            <Link className="font-bold text-xl text-white" to='/blog'>Blog</Link>
+                            <Link className="font-bold text-xl text-white" to='/blog'>Add a Toy</Link>
                         </li>
                         <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
-                            <Link className="font-bold text-xl text-white" to='/contact'>Contact</Link>
+                            <Link className="font-bold text-xl text-white" to='/contact'>Blog</Link>
                         </li>
                     </ul>
 
