@@ -35,6 +35,9 @@ const Navbar = () => {
                         <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
                             <Link className="font-bold text-xl text-white" to='/blog'>Blog</Link>
                         </li>
+                        <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
+                            <Link className="font-bold text-xl text-white" to='/login'>Login</Link>
+                        </li>
                     </ul>
 
                 </div>
