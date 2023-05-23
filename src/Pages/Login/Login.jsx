@@ -14,15 +14,15 @@ const Login = () => {
                         <label className="label">
                             <span className="label-text text-xl font-semibold">Email</span>
                         </label>
-                        <input className="w-full py-3 px-3" type="email" name="email" id="" placeholder="please enter your email" />
+                        <input className="w-full py-3 px-6 lg:rounded-none rounded-full" type="email" name="email" id="" placeholder="please enter your email" />
                     </div>
                     <div>
                         <label className="label">
                             <span className="label-text text-xl font-semibold">Password</span>
                         </label>
-                        <input className="w-full py-3 px-5 " type="password" name="password" id="" placeholder="please enter your password" />
+                        <input className="w-full py-3 px-6 lg:rounded-none rounded-full " type="password" name="password" id="" placeholder="please enter your password" />
                     </div>
-                    <input className="w-full bg-white mt-5 py-3 text-xl font-bold uppercase mb-3 cursor-pointer" type="submit" value="login" />
+                    <input className="w-full lg:rounded-none rounded-full bg-white mt-5 py-3 text-xl font-bold uppercase mb-3 cursor-pointer" type="submit" value="login" />
                     <div>
                         <Link to='/register' className="text-lg capitalize font-semibold">New to funtopia? <span className="hover:text-white duration-300">please register</span></Link>
                         <div>
