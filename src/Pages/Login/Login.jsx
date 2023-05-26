@@ -5,7 +5,7 @@ import { AuthContext } from "../../Provider/AuthProvider";
 
 const Login = () => {
 
-    const { loginUser } = useContext(AuthContext);
+    const { loginUser, handleGoogleSignIn } = useContext(AuthContext);
 
     const [error, setError] = useState('');
 
@@ -58,7 +58,7 @@ const Login = () => {
                     <div>
                         <Link to='/register' className="text-lg capitalize font-semibold">New to funtopia? <span className="hover:text-white duration-300">please register</span></Link>
                         <div>
-                            <p className="text-lg capitalize font-semibold items-center flex ">OR sing in with  <button><FcGoogle className="text-3xl bg-white p-1 rounded-full ml-2 " /></button></p>
+                            <p className="text-lg capitalize font-semibold items-center flex ">OR sing in with  <button onClick={handleGoogleSignIn}><FcGoogle className="text-3xl bg-white p-1 rounded-full ml-2 " /></button></p>
                         </div>
                     </div>
                 </div>
