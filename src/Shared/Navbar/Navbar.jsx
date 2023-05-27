@@ -38,7 +38,7 @@ const Navbar = () => {
                 </div>
                 {/* menu item */}
                 <div className="justify-end">
-                    <ul className={`list-none lg:flex items-center lg:static duration-500 lg-p-0 p-5 text-center -z-10 lg:space-y-0 space-y-3  absolute lg:bg-none bg-pink-500 ${open ? 'right-10 top-24' : 'right-10  -top-60 '}`}>
+                    <ul className={`list-none lg:flex items-center lg:static duration-500 lg-p-0 p-5 text-center -z-10 lg:space-y-0 space-y-3  absolute lg:bg-none bg-pink-500 ${open ? 'right-10 top-24' : 'right-10  -top-72 '}`}>
                         <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
                             <Link className="font-bold text-xl text-white" to='/'>Home</Link>
                         </li>
