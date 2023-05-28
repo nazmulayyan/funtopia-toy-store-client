@@ -7,7 +7,7 @@ const Blog = () => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
-        fetch('/data/blog.json')
+        fetch('http://localhost:5000/blogs')
             .then(res => res.json())
             .then(data => setBlogs(data.map(blog => ({ ...blog, expanded: false }))))
     }, []);
