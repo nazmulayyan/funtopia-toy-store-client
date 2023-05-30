@@ -52,11 +52,28 @@ const ShopByCategory = () => {
               animalToys.map(toy => (
                 <div key={toy._id} className='p-10 border shadow-xl hover:shadow-none duration-200 rounded-xl' data-aos='fade-up'>
                   <img className='h-80 m-auto' src={toy.picture} alt={toy.name} />
-                  <div className='flex justify-end font-xl pt-8'>
-                    <Link to={`/toyDetails/${toy._id}`} className='cursor-pointer text-4xl text-gray-800 hover:text-pink-500 duration-300 p-1 border-gray-800 hover:border-pink-500 text-center '>
+                  <div className='font-xl pt-8'>
+                    <div>
+                      <div className="grid grid-cols-3">
+                        <span className="col-span-2 font-bold text-lg text-gray-600 pb-3">Name:</span>
+                        <span className="col-span-1 font-bold text-lg  text-gray-800 pb-3">{toy.name}</span>
+                      </div>
+
+                      <div className="grid grid-cols-3">
+                        <span className="col-span-2 font-bold text-lg text-gray-600 pb-3">Price:</span>
+                        <span className="col-span-1 font-bold text-lg  text-gray-800 pb-3">{toy.price}</span>
+                      </div>
+
+                      <div className="grid grid-cols-3">
+                        <span className="col-span-2 font-bold text-lg text-gray-600 pb-3">rating:</span>
+                        <span className="col-span-1 font-bold text-lg  text-gray-800 pb-3">{toy.rating}</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='flex justify-end'>
+                    <Link to={`/toyDetails/${toy._id}`} className='cursor-pointer text-4xl text-gray-800 hover:text-pink-500 duration-300 border-gray-800 hover:border-pink-500 text-center '>
                       <RxArrowRight />
                     </Link>
-
                   </div>
                 </div>
               ))
@@ -70,8 +87,26 @@ const ShopByCategory = () => {
               birdToys.map(toy => (
                 <div key={toy._id} className='p-10 border shadow-xl hover:shadow-none duration-200 rounded-xl' data-aos='fade-up'>
                   <img className='h-80 m-auto' src={toy.picture} alt={toy.name} />
-                  <div className='flex justify-end font-xl pt-8'>
-                    <Link to={`/toyDetails/${toy._id}`} className='cursor-pointer text-4xl text-gray-800 hover:text-pink-500 duration-300 p-1 border-gray-800 hover:border-pink-500 text-center '>
+                  <div className='font-xl pt-8'>
+                    <div>
+                      <div className="grid grid-cols-3">
+                        <span className="col-span-2 font-bold text-lg text-gray-600 pb-3">Name:</span>
+                        <span className="col-span-1 font-bold text-lg  text-gray-800 pb-3">{toy.name}</span>
+                      </div>
+
+                      <div className="grid grid-cols-3">
+                        <span className="col-span-2 font-bold text-lg text-gray-600 pb-3">Price:</span>
+                        <span className="col-span-1 font-bold text-lg  text-gray-800 pb-3">{toy.price}</span>
+                      </div>
+
+                      <div className="grid grid-cols-3">
+                        <span className="col-span-2 font-bold text-lg text-gray-600 pb-3">rating:</span>
+                        <span className="col-span-1 font-bold text-lg  text-gray-800 pb-3">{toy.rating}</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='flex justify-end'>
+                    <Link to={`/toyDetails/${toy._id}`} className='cursor-pointer text-4xl text-gray-800 hover:text-pink-500 duration-300 border-gray-800 hover:border-pink-500 text-center '>
                       <RxArrowRight />
                     </Link>
                   </div>
@@ -87,19 +122,37 @@ const ShopByCategory = () => {
               reptileToys.map(toy => (
                 <div key={toy._id} className='p-10 border shadow-xl hover:shadow-none duration-200 rounded-xl' data-aos='fade-up'>
                   <img className='h-80 m-auto' src={toy.picture} alt={toy.name} />
-                  <div className='flex justify-end font-xl pt-8'>
-                    <Link to={`/toyDetails/${toy._id}`} className='cursor-pointer text-4xl text-gray-800 hover:text-pink-500 duration-300 p-1 border-gray-800 hover:border-pink-500 text-center '>
+                  <div className='font-xl pt-8'>
+                    <div>
+                      <div className="grid grid-cols-3">
+                        <span className="col-span-2 font-bold text-lg text-gray-600 pb-3">Name:</span>
+                        <span className="col-span-1 font-bold text-lg  text-gray-800 pb-3">{toy.name}</span>
+                      </div>
+
+                      <div className="grid grid-cols-3">
+                        <span className="col-span-2 font-bold text-lg text-gray-600 pb-3">Price:</span>
+                        <span className="col-span-1 font-bold text-lg  text-gray-800 pb-3">{toy.price}</span>
+                      </div>
+
+                      <div className="grid grid-cols-3">
+                        <span className="col-span-2 font-bold text-lg text-gray-600 pb-3">rating:</span>
+                        <span className="col-span-1 font-bold text-lg  text-gray-800 pb-3">{toy.rating}</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='flex justify-end'>
+                    <Link to={`/toyDetails/${toy._id}`} className='cursor-pointer text-4xl text-gray-800 hover:text-pink-500 duration-300 border-gray-800 hover:border-pink-500 text-center '>
                       <RxArrowRight />
                     </Link>
                   </div>
                 </div>
-              ))
+          ))
             }
-          </div>
-        </TabPanel>
+        </div>
+      </TabPanel>
 
-      </Tabs>
-    </div>
+    </Tabs>
+    </div >
   );
 };
 

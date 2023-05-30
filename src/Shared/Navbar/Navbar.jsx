@@ -58,7 +58,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
-                            <Link className="font-bold text-xl text-white" to="/about">
+                            <Link className="font-bold text-xl text-white" to="/allToys">
                                 All Toys
                             </Link>
                         </li>
@@ -66,12 +66,12 @@ const Navbar = () => {
                             <>
 
                                 <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
-                                    <Link className="font-bold text-xl text-white" to="/service">
+                                    <Link className="font-bold text-xl text-white" to="/myToys">
                                         My Toys
                                     </Link>
                                 </li>
                                 <li className="px-6 hover:border-b-4 pb-1 transition-all duration-150  border-white">
-                                    <Link className="font-bold text-xl text-white" to="/blog">
+                                    <Link className="font-bold text-xl text-white" to="/addToy">
                                         Add a Toy
                                     </Link>
                                 </li>

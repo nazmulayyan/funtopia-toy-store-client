@@ -11,7 +11,7 @@ const ToyDetails = () => {
             <div className="md:grid md:grid-cols-3 p-10 gap-8 border-2 rounded-xl py-14">
 
                 <div className="md:col-span-1">
-                    <img className="w-80" src={toyDetails.picture} alt="" />
+                    <img className="w-full" src={toyDetails.picture} alt="" />
                 </div>
 
                 <div className="md:col-span-2">
@@ -43,6 +43,10 @@ const ToyDetails = () => {
                             <span className="col-span-2 font-bold text-2xl text-gray-600 pb-5">subcategory:</span>
                             <span className="col-span-1 font-bold text-2xl text-gray-800 pb-5">{toyDetails.subcategory}</span>
                         </div>
+
+                        <button>
+                            add
+                        </button>
 
                     </div>
                 </div>
