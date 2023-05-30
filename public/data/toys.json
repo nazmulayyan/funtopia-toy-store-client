@@ -4,7 +4,7 @@
         "name": "Plush Tiger",
         "price": "$19.99",
         "rating": 4.5,
-        "sellaer": "Toy World",
+        "seller": "Toy World",
         "subcategory": "Animal"
     },
     {
@@ -32,7 +32,6 @@
         "subcategory": "Animal"
     },
     {
-        "_id": "05",
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_32400100-03640002.png",
         "name": "Furry Koala",
         "price": "$16.99",
