@@ -10,7 +10,6 @@ import AllToys from "../Pages/AllToys/AllToys";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
-
     {
       path: "/",
       element: <Main></Main>,
