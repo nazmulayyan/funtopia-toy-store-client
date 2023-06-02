@@ -44,10 +44,6 @@ const ToyDetails = () => {
                             <span className="col-span-1 font-bold text-2xl text-gray-800 pb-5">{toyDetails.subcategory}</span>
                         </div>
 
-                        <button>
-                            add
-                        </button>
-
                     </div>
                 </div>
 
