@@ -8,6 +8,9 @@ import MyToy from "../Pages/MyToy/MyToy";
 import AddToy from "../Pages/AddToy/AddToy";
 import AllToys from "../Pages/AllToys/AllToys";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import UpdateToy from "../Pages/UpdateToy/UpdateToy";
+import Login from "../Pages/Login/Login";
+import Register from "../Pages/Login/Register/Register";
 
 const router = createBrowserRouter([
     {
@@ -24,12 +27,16 @@ const router = createBrowserRouter([
         },
         {
           path: '/myToys',
-          element:<MyToy></MyToy>,
-          loader: () => fetch('http://localhost:5000/addToy')
+          element: <PrivateRoute>
+            <MyToy></MyToy>
+          </PrivateRoute>
+          // loader: () => fetch('http://localhost:5000/addToy')
         },
         {
           path: '/addToy',
-          element: <AddToy></AddToy>
+          element: <PrivateRoute>
+            <AddToy></AddToy>
+          </PrivateRoute>
         },
         {
           path: '/allToys',
@@ -43,6 +50,19 @@ const router = createBrowserRouter([
           </PrivateRoute>,
           loader: ({params}) => fetch(`http://localhost:5000/toys/${params.id}`)
         },
+        {
+          path: 'updateToy/:id',
+          element:<UpdateToy></UpdateToy>,
+          loader: ({params}) => fetch(`http://localhost:5000/toys/${params.id}`)
+        },
+        {
+          path:'/login',
+          element: <Login></Login>
+        },
+        {
+          path:'/register',
+          element: <Register></Register>
+        }
         
       ]
     },
