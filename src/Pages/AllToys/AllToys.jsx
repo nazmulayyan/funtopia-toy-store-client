@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import Swal from "sweetalert2";
+import { Link } from "react-router-dom"
 
 const AllToys = () => {
+
     const [searchQuery, setSearchQuery] = useState("");
     const [filteredToys, setFilteredToys] = useState([]);
     const [allToys, setAllToys] = useState([]); //state for all toys
-    console.log(allToys);
 
     useEffect(() => {
         // Fetch all toys when the component mounts
@@ -32,38 +31,6 @@ const AllToys = () => {
         }
     }, [searchQuery, allToys]);
 
-
-    const handleDelete = (_id) => {
-        console.log(_id);
-        Swal.fire({
-            title: "Are you sure?",
-            text: "You won't be able to revert this!",
-            icon: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#3085d6",
-            cancelButtonColor: "#d33",
-            confirmButtonText: "Yes, delete it!",
-        }).then((result) => {
-            if (result.isConfirmed) {
-                fetch(`http://localhost:5000/toys/${_id}`, {
-                    method: "DELETE",
-                })
-                    .then((res) => res.json())
-                    .then((data) => {
-                        console.log(data);
-                        const remaind = allToys.filter(toy=>toy._id!=_id)
-                        setAllToys(remaind)
-                        if (data.deletedCount > 0) {
-                            Swal.fire("Deleted!", "Your item has been deleted.", "success");
-                        }
-                    })
-                    .catch((error) => {
-                        console.log("Error deleting toy:", error);
-                    });
-            }
-        });
-    };
-
     const handleSearch = (event) => {
         event.preventDefault();
         const form = event.target;
@@ -71,22 +38,29 @@ const AllToys = () => {
         setSearchQuery(search);
     };
 
+
     return (
-        <div className="my-36 lg:max-w-screen-2xl lg:p-0 px-5 mx-auto">
-            <div className="bg-pink-500 h-96 flex justify-center items-center capitalize rounded-xl shadow-xl hover:shadow-none duration-200 mb-10">
-                <h3 className="md:text-5xl text-3xl font-bold text-white">all toys</h3>
+        <div className="mt-20 mb-36 w-11/12 mx-auto">
+            <div className="bg-pink-500 h-96 flex justify-center items-center capitalize rounded-xl shadow-xl hover:shadow-none duration-200 my-10">
+                <div className="text-center">
+                    <h3 className="md:text-5xl text-4xl font-bold text-white">all toys</h3>
+                    <div className="flex mt-5">
+                        <Link to='/' className="py-3 px-4 bg-white font-semibold text-xl capitalize md:rounded-lg rounded-lg ">go back</Link>
+                        <p className="py-3 px-4 bg-white font-semibold text-xl capitalize md:rounded-lg rounded-lg text-pink-500 ml-5">all toys</p>
+                    </div>
+                </div>
             </div>
             <div className="bg-pink-500 h-24 flex justify-center items-center capitalize rounded-xl shadow-xl hover:shadow-none duration-200 mb-10">
-                <form onSubmit={handleSearch}>
+                <form onSubmit={handleSearch} className="flex justify-center">
                     <input
                         type="text"
                         placeholder="Search..."
-                        className="p-3 text-gray-700 rounded-full lg:rounded-none "
+                        className="md:px-3 md:py-3 px-2 py-1 md:w-4/5 w-2/3 text-gray-700 rounded-lg "
                         name="search"
                     />
                     <button
                         type="submit"
-                        className="md:px-6 px-4 font-semibold text-gray-700 py-3 lg:rounded-none rounded-full md:ms-2 ms-1 bg-white"
+                        className="md:px-6 md:w-fit w-1/4 px-2 font-semibold text-gray-700 md:py-3 rounded-lg md:ms-2 ms-1 bg-white"
                     >
                         Search
                     </button>
@@ -96,6 +70,7 @@ const AllToys = () => {
                 <table className="table w-full rounded-none">
                     <thead>
                         <tr>
+                            <th>sl no</th>
                             <th>Seller</th>
                             <th>Toy Name</th>
                             <th>Sub-category</th>
@@ -112,8 +87,9 @@ const AllToys = () => {
                                 </td>
                             </tr>
                         ) : (
-                            filteredToys.map((toy) => (
+                            filteredToys.map((toy, index) => (
                                 <tr key={toy._id}>
+                                    <th>{index + 1}</th>
                                     <td>{toy.seller}</td>
                                     <td>{toy.name}</td>
                                     <td>{toy.subcategory}</td>
@@ -123,22 +99,9 @@ const AllToys = () => {
                                         <button className="my-3">
                                             <Link
                                                 to={`/toyDetails/${toy._id}`}
-                                                className="md:px-6 px-3 font-semibold text-white md:py-3 py-2 lg:rounded-none rounded-full lg:mr-0 capitalize text-sm bg-pink-500"
+                                                className="md:px-6 px-3 font-semibold text-white md:py-3 py-2 rounded-lg lg:mr-0 capitalize text-sm bg-pink-500"
                                             >
                                                 view
-                                            </Link>
-                                        </button>
-                                        <button className="my-3">
-                                            <Link
-                                                to={`/updateToy/${toy._id}`}
-                                                className="md:px-6 px-3 font-semibold text-white md:py-3 py-2 lg:rounded-none rounded-full lg:mr-0 capitalize text-sm bg-pink-500"
-                                            >
-                                                update
-                                            </Link>
-                                        </button>
-                                        <button onClick={() => handleDelete(toy._id)} className="my-3">
-                                            <Link className="md:px-6 px-3 font-semibold text-white md:py-3 py-2 lg:rounded-none rounded-full lg:mr-0 capitalize text-sm bg-pink-500">
-                                                delete
                                             </Link>
                                         </button>
                                     </td>

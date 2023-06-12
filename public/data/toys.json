@@ -7,7 +7,8 @@
         "seller": "Toy World",
         "sellerEmail": "toyworld@example.com",
         "subcategory": "Animal",
-        "description": "A cuddly tiger companion for playtime adventures."
+        "description": "A cuddly tiger companion for playtime adventures. This adorable plush tiger is made with soft, huggable material and features vibrant colors. It's the perfect toy for kids who love wild animals and imaginative play. With its realistic details and lifelike expression, this plush tiger will bring hours of joy and cuddles. Get ready for endless adventures with your new furry friend!",
+        "quantity": 100
     },
     {
         "picture": "https://shorturl.at/dfhLT",
@@ -17,7 +18,8 @@
         "seller": "Fun Toys",
         "sellerEmail": "funtoys@example.com",
         "subcategory": "Animal",
-        "description": "An adorable elephant friend for snuggles and fun."
+        "description": "An adorable elephant friend for snuggles and fun. This stuffed elephant is made with super soft and huggable material, making it perfect for cuddling and playtime. Its gentle eyes and cute trunk add to its charm. Whether you want a companion for naptime or a buddy for your imaginative adventures, this stuffed elephant is always ready to join in the fun. Let your child's imagination run wild with this lovable plush toy!",
+        "quantity": 50
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_35030100-02e50f02.png",
@@ -27,7 +29,8 @@
         "seller": "Cute Creations",
         "sellerEmail": "cutecreations@example.com",
         "subcategory": "Animal",
-        "description": "A fluffy panda to bring joy and cuteness to your day."
+        "description": "Introducing the Fluffy Panda! This cuddly plush panda is perfect for both kids and panda enthusiasts. Its fluffy fur and adorable face make it impossible to resist. Snuggle up with this huggable panda and let your imagination take you on exciting bamboo-filled adventures. With its high-quality craftsmanship and attention to detail, this Fluffy Panda will be a cherished companion for years to come.",
+        "quantity": 50
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_32400000-025b0002.png",
@@ -37,7 +40,8 @@
         "seller": "Snuggly Toys",
         "sellerEmail": "snugglytoys@example.com",
         "subcategory": "Animal",
-        "description": "A soft bunny companion for endless hugs and snuggles."
+        "description": "Meet our Soft Bunny, the perfect cuddle buddy for kids of all ages. This plush bunny is made with extra-soft fabric that's gentle to the touch. Its floppy ears and cute button eyes give it an irresistible charm. Whether you need a companion for bedtime or a friend for tea parties, this Soft Bunny is always ready for hugs and adventures. Bring home this lovable bunny and create cherished memories with every snuggle!",
+        "quantity": 1000
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_32400100-03640002.png",
@@ -47,7 +51,8 @@
         "seller": "Cozy Companions",
         "sellerEmail": "cozycompanions@example.com",
         "subcategory": "Animal",
-        "description": "A furry koala friend to join your cuddle adventures."
+        "description": "Say hello to the Furry Koala! This fluffy koala plush is incredibly soft and cuddly, perfect for snuggling up with at any time. With its adorable face and lifelike details, this Furry Koala will capture your heart and take you on imaginary adventures to the eucalyptus forests of Australia. Let this lovable koala be your new best friend and bring a touch of nature and cuteness into your life.",
+        "quantity": 500
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01920000-02470502.png",
@@ -57,7 +62,8 @@
         "seller": "Playful Pals",
         "sellerEmail": "playfulpals@example.com",
         "subcategory": "Animal",
-        "description": "A velvet monkey ready for endless playful antics."
+        "description": "Get ready for some monkeying around with our Velvet Monkey plush! This soft and huggable monkey is made with luxurious velvet fabric, making it incredibly cozy to hold. Its playful expression and long arms are perfect for hugs and interactive play. Bring home this mischievous Velvet Monkey and let the fun and laughter begin. It's a must-have companion for any young animal lover!",
+        "quantity": 400
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01410000-035c0902.png",
@@ -67,7 +73,8 @@
         "seller": "Hug 'n' Joy",
         "sellerEmail": "hugnjoy@example.com",
         "subcategory": "Animal",
-        "description": "A cuddly bear to bring joy and warm hugs to your life."
+        "description": "Experience endless cuddles and love with our Cuddly Bear plush. This adorable bear is made with ultra-soft fur that's perfect for snuggling up with. Its gentle eyes and sweet smile will melt your heart. Whether you need a friend for bedtime or a comforting presence during the day, this Cuddly Bear is always there to provide warmth and love. Make every hug a joyful one with this delightful plush companion!",
+        "quantity": 700
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00170000-02680102.png",
@@ -77,7 +84,8 @@
         "seller": "Happy Critters",
         "sellerEmail": "happycritters@example.com",
         "subcategory": "Animal",
-        "description": "A snuggly squirrel companion for fun and playtime."
+        "description": "Meet our Snuggly Squirrel, the perfect cuddle companion for nature lovers. With its soft and fluffy fur, this squirrel plush is ready to join your adventures and provide endless snuggles. Its playful expression and bushy tail add to its charm. Whether you want a friend for storytelling or a buddy for outdoor exploration, the Snuggly Squirrel is always ready for fun. Bring home this delightful plush and let your imagination soar!",
+        "quantity": 922
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00050000-00140002.png",
@@ -87,7 +95,8 @@
         "seller": "Whiskered Wonders",
         "sellerEmail": "whiskeredwonders@example.com",
         "subcategory": "Animal",
-        "description": "A fluffy fox friend to join your imaginative adventures."
+        "description": "Introducing our Fluffy Fox plush, a charming companion for kids and fox enthusiasts alike. With its soft, fluffy fur and bright eyes, this fox is ready for imaginative adventures. Whether you want a snuggle buddy for bedtime or a friend for outdoor play, this Fluffy Fox is always up for fun. Its realistic design and high-quality craftsmanship make it a cherished addition to any plush collection. Bring home this lovable fox and let the adventures begin!",
+        "quantity": 611
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00050000-00390102.png",
@@ -97,7 +106,8 @@
         "seller": "Kids' Corner",
         "sellerEmail": "kidscorner@example.com",
         "subcategory": "Birds",
-        "description": "A charming wooden parrot for imaginative playtime."
+        "description": "A charming wooden parrot for imaginative playtime.",
+        "quantity": 1000
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00050000-03730102.png",
@@ -107,7 +117,8 @@
         "seller": "Happy Toys",
         "sellerEmail": "happytoys@example.com",
         "subcategory": "Birds",
-        "description": "A fluffy owl companion for nighttime adventures."
+        "description": "A fluffy owl companion for nighttime adventures.",
+        "quantity": 500
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00060000-00150002.png",
@@ -117,7 +128,8 @@
         "seller": "Avian Delights",
         "sellerEmail": "aviandelights@example.com",
         "subcategory": "Birds",
-        "description": "A vibrant parakeet to brighten up your day."
+        "description": "A vibrant parakeet to brighten up your day.",
+        "quantity": 800
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_210b0000-03a50002.png",
@@ -127,7 +139,8 @@
         "seller": "Graceful Feathers",
         "sellerEmail": "gracefulfeathers@example.com",
         "subcategory": "Birds",
-        "description": "An elegant swan for a touch of grace and beauty."
+        "description": "An elegant swan for a touch of grace and beauty.",
+        "quantity": 300
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08010000-025d0402.png",
@@ -137,7 +150,8 @@
         "seller": "Soaring Heights",
         "sellerEmail": "soaringheights@example.com",
         "subcategory": "Birds",
-        "description": "A majestic eagle to inspire soaring adventures."
+        "description": "A majestic eagle to inspire soaring adventures.",
+        "quantity": 600
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_06000000-00120002.png",
@@ -147,7 +161,8 @@
         "seller": "Cheerful Chirps",
         "sellerEmail": "cheerfulchirps@example.com",
         "subcategory": "Birds",
-        "description": "A tweeting canary to fill your space with melodious tunes."
+        "description": "A tweeting canary to fill your space with melodious tunes.",
+        "quantity": 120
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_01930000-02480502.png",
@@ -157,7 +172,8 @@
         "seller": "Melodious Tunes",
         "sellerEmail": "melodioustunes@example.com",
         "subcategory": "Birds",
-        "description": "A whistling finch for cheerful and melodic company."
+        "description": "A whistling finch for cheerful and melodic company.",
+        "quantity": 400
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_21070000-03611202.png",
@@ -167,7 +183,8 @@
         "seller": "Buzzing Wings",
         "sellerEmail": "buzzingwings@example.com",
         "subcategory": "Birds",
-        "description": "A perky hummingbird to bring a touch of nature's magic."
+        "description": "A perky hummingbird to bring a touch of nature's magic.",
+        "quantity": 700
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_19060000-00240002.png",
@@ -177,7 +194,8 @@
         "seller": "Vibrant Plumage",
         "sellerEmail": "vibrantplumage@example.com",
         "subcategory": "Birds",
-        "description": "A gorgeous peacock to display its vibrant plumage."
+        "description": "A gorgeous peacock to display its vibrant plumage.",
+        "quantity": 200
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_21080000-036f1202.png",
@@ -187,7 +205,8 @@
         "seller": "Toy Universe",
         "sellerEmail": "toyuniverse@example.com",
         "subcategory": "Reptiles",
-        "description": "A lifelike plastic snake for reptile enthusiasts."
+        "description": "A lifelike plastic snake for reptile enthusiasts.",
+        "quantity": 101
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_21080000-03880002.png",
@@ -197,7 +216,8 @@
         "seller": "Playtime Emporium",
         "sellerEmail": "playtimeemporium@example.com",
         "subcategory": "Reptiles",
-        "description": "A squishy rubber lizard for tactile playtime fun."
+        "description": "A squishy rubber lizard for tactile playtime fun.",
+        "quantity": 822
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_36000000-02590002.png",
@@ -207,7 +227,8 @@
         "seller": "Reptile Haven",
         "sellerEmail": "reptilehaven@example.com",
         "subcategory": "Reptiles",
-        "description": "A green iguana plush toy for reptile enthusiasts."
+        "description": "A green iguana plush toy for reptile enthusiasts.",
+        "quantity": 533
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_36000100-03620002.png",
@@ -217,7 +238,8 @@
         "seller": "Aquatic Pets",
         "sellerEmail": "aquaticpets@example.com",
         "subcategory": "Reptiles",
-        "description": "An adorable turtle hatchling plush toy for animal lovers."
+        "description": "An adorable turtle hatchling plush toy for animal lovers.",
+        "quantity": 122
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_21050000-025a0002.png",
@@ -227,7 +249,8 @@
         "seller": "Colorful Critters",
         "sellerEmail": "colorfulcritters@example.com",
         "subcategory": "Reptiles",
-        "description": "A color-changing chameleon plush toy for imaginative play."
+        "description": "A color-changing chameleon plush toy for imaginative play.",
+        "quantity": 655
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_21050000-025a0002.png",
@@ -237,7 +260,8 @@
         "seller": "Sunny Scales",
         "sellerEmail": "sunnyscales@example.com",
         "subcategory": "Reptiles",
-        "description": "A cute gecko plush toy for reptile enthusiasts."
+        "description": "A cute gecko plush toy for reptile enthusiasts.",
+        "quantity": 106
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_018b0000-02460502.png",
@@ -247,7 +271,8 @@
         "seller": "Desert Dweller",
         "sellerEmail": "desertdweller@example.com",
         "subcategory": "Reptiles",
-        "description": "A lifelike bearded dragon plush toy for reptile enthusiasts."
+        "description": "A lifelike bearded dragon plush toy for reptile enthusiasts.",
+        "quantity": 367
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00130000-02660102.png",
@@ -257,7 +282,8 @@
         "seller": "Jungle Exotics",
         "sellerEmail": "jungleexotics@example.com",
         "subcategory": "Reptiles",
-        "description": "A ferocious crocodile plush toy for wild adventures."
+        "description": "A ferocious crocodile plush toy for wild adventures.",
+        "quantity": 765
     },
     {
         "picture": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00130000-037a0002.png",
@@ -267,6 +293,7 @@
         "seller": "Slow and Steady",
         "sellerEmail": "slowandsteady@example.com",
         "subcategory": "Reptiles",
-        "description": "A wise and slow-moving tortoise plush toy for animal lovers."
+        "description": "A wise and slow-moving tortoise plush toy for animal lovers.",
+        "quantity": 465
     }
 ]

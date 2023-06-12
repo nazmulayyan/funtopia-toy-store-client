@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import useTitle from "../../hooks/useTitle";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
     useTitle('Blog')
@@ -21,9 +22,16 @@ const Blog = () => {
     };
 
     return (
-        <div className="lg:max-w-screen-2xl lg:p-0 px-5 m-auto mb-36">
-            <div className="bg-pink-500 md:h-96 h-60 flex items-center justify-center mt-10 mb-10 rounded-xl">
-                <h3 className="text-white font-bold md:text-5xl text-3xl capitalize">welcome to our awesome blog</h3>
+        <div className="w-11/12 mx-auto mt-20 mb-36">
+            
+            <div className="bg-pink-500 h-96 flex justify-center items-center capitalize rounded-xl shadow-xl hover:shadow-none duration-200 my-10">
+                <div className="text-center">
+                    <h3 className="md:text-5xl text-3xl font-bold text-white">welcome to our awesome blog</h3>
+                    <div className="flex mt-5 justify-center">
+                        <Link to='/' className="py-3 px-4 bg-white font-semibold text-xl capitalize rounded-lg ">go back</Link>
+                        <p className="py-3 px-4 bg-white font-semibold text-xl capitalize rounded-lg text-pink-500 ml-5">blog</p>
+                    </div>
+                </div>
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
                 {blogs.map((blog, index) => (
@@ -38,7 +46,7 @@ const Blog = () => {
                         {blog.answer.length > 200 && (
                             <button
                                 onClick={() => toggleAnswer(index)}
-                                className="text-white font-semibold mt-2 bg-pink-500 py-3 px-5 md:rounded-none rounded-full"
+                                className="text-white font-semibold mt-2 bg-pink-500 py-3 px-5 rounded-lg"
                             >
                                 {blog.expanded ? "See Less" : "See More"}
                             </button>

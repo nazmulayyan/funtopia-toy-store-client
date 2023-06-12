@@ -8,3 +8,9 @@ body{
   font-family: Montserrat;
   overflow-x: hidden;
 }
+
+.active{
+  color: #1F2937;
+  font-weight: 700;
+  font-size: 20px;
+}
