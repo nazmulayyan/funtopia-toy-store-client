@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2'
+import useTitle from '../../hooks/useTitle';
 
 const AddToy = () => {
+
+    useTitle('AddToy')
 
     const handleAddToy = (event) => {
         event.preventDefault();

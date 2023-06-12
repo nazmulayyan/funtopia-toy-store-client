@@ -1,10 +1,11 @@
 import { Link, useLoaderData } from "react-router-dom";
+import useTitle from "../../../../hooks/useTitle";
 
 
 const ToyDetails = () => {
-    const toyDetails = useLoaderData();
+    useTitle('ToyDetails')
 
-    
+    const toyDetails = useLoaderData();
 
     return (
         <div className='w-11/12 mx-auto mt-20 mb-36'>
