@@ -17,7 +17,7 @@ const MyToy = () => {
 
 
     useEffect(() => {
-        fetch(`https://funtopia-toy-store-server.vercel.app/toys/${user.email}`)
+        fetch(`https://funtopia-toy-store-server.vercel.app/myToy/${user.email}`)
             .then(res => res.json())
             .then(data => setMyToys(data))
     }, [user])
@@ -35,7 +35,7 @@ const MyToy = () => {
             confirmButtonText: "Yes, delete it!",
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/toys/${_id}`, {
+                fetch(`https://funtopia-toy-store-server.vercel.app/toys/${_id}`, {
                     method: "DELETE",
                 })
                     .then((res) => res.json())

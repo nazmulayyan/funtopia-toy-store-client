@@ -30,7 +30,7 @@ const router = createBrowserRouter([
           element: <PrivateRoute>
             <MyToy></MyToy>
           </PrivateRoute>
-          // loader: () => fetch('http://localhost:5000/addToy')
+          // loader: () => fetch('https://funtopia-toy-store-server.vercel.app/addToy')
         },
         {
           path: '/addToy',
@@ -41,19 +41,19 @@ const router = createBrowserRouter([
         {
           path: '/allToys',
           element: <AllToys></AllToys>,
-          loader: () => fetch('http://localhost:5000/toys')
+          loader: () => fetch('https://funtopia-toy-store-server.vercel.app/toys')
         },
         {
           path: '/toyDetails/:id',
           element: <PrivateRoute>
             <ToyDetails></ToyDetails>
           </PrivateRoute>,
-          loader: ({params}) => fetch(`http://localhost:5000/toys/${params.id}`)
+          loader: ({params}) => fetch(`https://funtopia-toy-store-server.vercel.app/toys/${params.id}`)
         },
         {
           path: 'updateToy/:id',
           element:<UpdateToy></UpdateToy>,
-          loader: ({params}) => fetch(`http://localhost:5000/toys/${params.id}`)
+          loader: ({params}) => fetch(`https://funtopia-toy-store-server.vercel.app/toys/${params.id}`)
         },
         {
           path:'/login',
