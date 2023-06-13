@@ -29,7 +29,7 @@ const UpdateToy = () => {
         console.log(updateNewToy);
 
         //send data to the server
-        fetch(`http://localhost:5000/toys/${_id}`, {
+        fetch(`https://funtopia-toy-store-server.vercel.app/toys/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

@@ -17,7 +17,7 @@ const MyToy = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myToy/${user.email}`)
+        fetch(`https://funtopia-toy-store-server.vercel.app/toys/${user.email}`)
             .then(res => res.json())
             .then(data => setMyToys(data))
     }, [user])
